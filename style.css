@@ -1,0 +1,63 @@
+html,body{
+	margin:0px;
+}
+
+.container{
+	display:grid;
+	grid-template-columns: auto auto auto;
+	gap: 5px 5px;
+	justify-content:center;
+}
+
+.container > input{
+	background-color:;
+	outline:none;
+	font-family:Tahoma,Arial,sans-serif;
+	height:50px;
+	width:50px;
+}
+
+.empty{
+	opacity:0;
+}
+
+
+#canvas{
+	background-color:#ffffff;
+	border:2px solid black;
+	margin-right: 0.5em;
+	margin-left: 0.5em;
+}
+
+p{
+	font-family:Courier new,monospace;
+	margin:2px;
+	font-size:20px;
+}
+ 
+ .btn{
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: transparent;
+    background-repeat:no-repeat;
+    box-shadow: none;
+    background-size: 50px 50px;
+    background-position:center;
+}
+
+#up{
+	background-image: url(images/upArrow.png);
+}
+
+#down{
+	background-image: url("images/downArrow.png");
+}
+
+#left{
+	background-image: url("images/leftArrow.png");
+}
+	
+#right{
+	background-image: url("images/rightArrow.png");
+}
